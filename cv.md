@@ -22,11 +22,10 @@ function getRandomColor() {
 }
 ```
 ## Education 
-**University:** Belarusian State Economic University
-
-**Courses:**
-* [HTML и CSS](https://stepik.org/course/38218/syllabus)
-* [JavaScript для начинающих](https://stepik.org/course/2223/syllabus)
+* **University:** Belarusian State Economic University
+* **Courses:**
+    + [HTML и CSS](https://stepik.org/course/38218/syllabus)
+    + [JavaScript для начинающих](https://stepik.org/course/2223/syllabus)
 ## Languages
 * **Russian:** native
 * **English:** pre-intermediate
