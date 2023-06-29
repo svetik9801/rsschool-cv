@@ -7,9 +7,8 @@
 ## About me
 I really want to start my journey in the IT industry and gain valuable hands-on experience working on real projects as a front-end developer. I believe that my key qualities include curiosity and a relentless desire to learn and develop. In addition, I appreciate the opportunity to collaborate in a team and share knowledge with other developers. I firmly believe that through collective collaboration and learning from professionals, I will be able to improve my skills and become a cool front-end developer.
 ## Skills
-* HTML5, CSS3
+* HTML5, CSS3, SCSS
 * JavaScript
-* SCSS
 * Bootstrap
 * BEM
 * Docker
