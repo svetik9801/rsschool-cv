@@ -1,3 +1,168 @@
+* {
+  box-sizing: border-box;
+} 
+html {
+  scroll-behavior: smooth; 
+} 
 body {
-  background: yellow;
-}  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0; 
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000;
+  background-color: #f8f4f0;
+}
+h1, h2 {
+  margin: 0;
+}
+ul {
+  padding: 0;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.header {
+  background-color: #edddd1;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  transition: .3s;
+  color: #000;
+}
+.nav-link:hover {
+  color:#645d5a;
+  font-size: 22px;
+  
+}
+.link {
+  text-decoration: none;
+  color: #5c5654;
+  transition: 0.5s;
+}
+
+.link:hover {
+  color: #2b2827;
+  font-size: 20px;
+  
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+.section:first-child {
+  width: 100%;
+}
+.section-profile{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.section-title {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+  background-color: #edddd1;
+  width: 710px;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.section-title-profile {
+  text-transform: uppercase;
+  font-size: 35px;
+}
+.section-title-profession {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.section-item{
+  list-style: none;
+  background: url(assets/img/checkbox.png) no-repeat 0 50%;
+  padding-left: 40px;
+  background-size: 24px 24px;
+  margin-left: 20px;
+  
+}
+.section-item-address {
+  background: url(assets/img/address.png) no-repeat 0 50%;
+  padding-left: 40px;
+  background-size: 22px;
+}
+.section-item-email {
+  background: url(assets/img/email.png) no-repeat 0 50%;
+  padding-left: 40px;
+  background-size: 24px 24px;
+}
+.section-item-github {
+  background: url(assets/img/github.png) no-repeat 0 50%;
+  padding-left: 40px;
+  background-size: 24px 24px;
+}
+.section-item-discord {
+  background: url(assets/img/discord.png) no-repeat 0 50%;
+  background-size: 24px 24px;
+  padding-left: 40px;
+}
+.section-item-telegram {
+  background: url(assets/img/telegram.png) no-repeat 0 50%;
+  padding-left: 40px;
+  background-size: 24px 24px;
+}
+.section-summary-text {
+  margin: 18px;
+}
+.section-education-text {
+  margin: 18px;
+}
+.photo {
+  width: 200px;
+  border-radius: 50%;
+}
+.footer {
+  background-color: #edddd1;
+}
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fotter-item {
+  list-style: none;
+}
+.footer-img {
+  height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
